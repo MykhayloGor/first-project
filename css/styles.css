@@ -7,3 +7,11 @@ h1 {
 p {
     color: green;
 }
+
+ul {
+    list-style: none;
+}
+
+.header-nav {
+    display: flex;
+}
