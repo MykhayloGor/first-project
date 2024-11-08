@@ -9,9 +9,24 @@ p {
 }
 
 ul {
+    margin: 0;
+    padding-left: 0;
     list-style: none;
+    display: flex;
+    align-items: center;
 }
 
 .header-nav {
     display: flex;
+}
+
+.nav-list {
+    font-size: 16px;
+    letter-spacing: 0.4em;
+    line-height: 2.1;
+    gap: 50px;
+}
+
+.hero-title {
+    text-align: center;
 }
